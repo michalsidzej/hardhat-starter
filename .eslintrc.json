@@ -29,10 +29,6 @@
       { "varsIgnorePattern": "^_", "argsIgnorePattern": "^_" }
     ],
     "import/no-cycle": "error",
-    "import/no-extraneous-dependencies": [
-      "error",
-      { "devDependencies": false }
-    ],
     "import/no-unresolved": ["error", { "ignore": ["^knex/types/tables$"] }],
     "import/no-internal-modules": [
       "error",
