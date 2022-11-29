@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "format": "prettier .",
-    "format:fix": "prettier -w",
+    "format:fix": "yarn format -w",
     "lint": "eslint --ext .ts .",
     "lint:fix": "yarn lint --fix"
   },
@@ -36,6 +36,7 @@
     "eslint-plugin-unused-imports": "^2.0.0",
     "ethers": "^5.4.7",
     "hardhat-gas-reporter": "^1.0.8",
+    "prettier": "^2.8.0",
     "solidity-coverage": "^0.8.0",
     "ts-node": ">=8.0.0",
     "typechain": "^8.1.0",
